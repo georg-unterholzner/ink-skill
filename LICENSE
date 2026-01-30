@@ -1,6 +1,13 @@
 MIT License
 
-Copyright (c) 2026 georg.dev
+This skill contains documentation from Ink (https://github.com/vadimdemedes/ink):
+
+Copyright (c) Vadym Demedes <vadimdemedes@hey.com> (https://github.com/vadimdemedes)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+The skill structure and compilation:
+
+Copyright (c) Georg Unterholzner <georg.unterholzner.coding@gmail.com> (https://georg.dev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
