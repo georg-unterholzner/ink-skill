@@ -1,10 +1,10 @@
-# Ink Skill for Claude Code
+# Ink Skill
 
 A comprehensive Agent Skill for building CLI applications with [Ink](https://github.com/vadimdemedes/ink) - React for CLIs.
 
 ## How It Works
 
-This skill uses progressive disclosure to minimize token usage. Instead of loading all 2,500 lines of documentation upfront, Claude loads:
+This skill uses progressive disclosure to minimize token usage. Instead of loading all 2,500 lines of documentation upfront, it loads:
 
 - **Discovery** (~100 tokens): Just the skill description when idle
 - **Navigation** (~800 tokens): `SKILL.md` with quick reference index when triggered
@@ -12,17 +12,7 @@ This skill uses progressive disclosure to minimize token usage. Instead of loadi
 
 ## Installation
 
-Install the `ink-skill/` directory to one of these locations:
-
-```bash
-# Personal installation (available across all projects)
-mkdir -p ~/.claude/skills/
-cp -r ink-skill ~/.claude/skills/ink
-
-# Project installation (this project only)
-mkdir -p .claude/skills/
-cp -r ink-skill .claude/skills/ink
-```
+Copy the `ink-skill/` directory to your AI agent's skills directory. Refer to your agent's documentation for the correct installation location.
 
 ## Usage
 
@@ -59,7 +49,7 @@ ink-skill/                      (repository root)
 
 ## Development
 
-### How This Skill Was Created
+In order to update this repo after a new release of the docs:
 
 1. **Copy original documentation** from [Ink repository](https://github.com/vadimdemedes/ink/).
 2. **Use AI agent** to split documentation into organized subfiles and generate `SKILL.md`.
