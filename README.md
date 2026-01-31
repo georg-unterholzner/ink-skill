@@ -12,7 +12,7 @@ This skill uses progressive disclosure to minimize token usage. Instead of loadi
 
 ## Installation
 
-Copy the `ink-skill/` directory to your AI agent's skills directory. Refer to your agent's documentation for the correct installation location.
+Copy the `ink/` directory to your AI agent's skills directory. Refer to your agent's documentation for the correct installation location.
 
 ## Usage
 
@@ -34,11 +34,11 @@ You can also request specific sections:
 ## Repository Structure
 
 ```
-ink-skill/                      (repository root)
+ink/                            (repository root)
 ├── build-agent-md.sh           # Generate complete reference
 ├── validate-correctness.sh     # Validate against original docs
 ├── LICENSE
-└── ink-skill/                  # Install this directory
+└── ink/                  # Install this directory
     ├── SKILL.md                # Main entry point
     └── references/             # All documentation files
 ```

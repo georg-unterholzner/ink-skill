@@ -27,8 +27,8 @@ if [ ! -f "$ORIGINAL_DOC" ]; then
     exit 1
 fi
 
-# Check if ink-skill directory exists
-SKILL_DIR="ink-skill"
+# Check if skill directory exists
+SKILL_DIR="ink"
 if [ ! -d "$SKILL_DIR" ]; then
     echo -e "${RED}Error: $SKILL_DIR directory not found${NC}"
     echo "This script must be run from the repository root"
