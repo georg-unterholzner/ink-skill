@@ -14,6 +14,8 @@ This skill uses progressive disclosure to minimize token usage. Instead of loadi
 
 Copy the `ink/` directory to your AI agent's skills directory. Refer to your agent's documentation for the correct installation location.
 
+You can download the skill as ZIP archive from the [releaes](https://github.com/georg-unterholzner/ink-skill/releases) page.
+
 ## Usage
 
 This skill activates when building CLI applications with Ink.
@@ -54,6 +56,7 @@ In order to update this repo after a new release of the docs:
    ./validate-correctness.sh <path-to-original-documentation>
    ```
    The validator checks that 80%+ of each file's content exists in the original documentation. Deviations are intentional (heading changes, cross-references, file splits).
+4. **Create release** by tagging current commit (with the version that corresponds to the current Ink version) and uploading the zipped skill to GitHub.
 
 ## License
 
