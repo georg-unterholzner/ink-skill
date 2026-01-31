@@ -1,5 +1,5 @@
 ---
-name: ink
+name: ink-skill
 description: Build CLI applications using React. Use when creating terminal UIs, handling keyboard input, or building interactive command-line tools with React components. Supports flexbox layouts, text styling, focus management, and accessibility.
 ---
 
