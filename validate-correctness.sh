@@ -49,7 +49,7 @@ VALIDATED_FILES=0
 FAILED_FILES=()
 
 # Directories to check (relative to SKILL_DIR)
-DIRECTORIES=("api" "components" "guides" "hooks")
+DIRECTORIES=("references")
 
 # Files to skip (compiled/generated files that aren't direct copies)
 SKIP_FILES=("third-party.md")

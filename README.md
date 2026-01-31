@@ -26,10 +26,10 @@ The skill triggers automatically when:
 - Handling keyboard input in CLI applications with `useInput`
 
 You can also request specific sections:
-- "Show me Box layout properties" → loads `components/box-layout.md`
-- "How do I handle keyboard input in Ink?" → loads `hooks/input.md`
-- "How to test Ink components?" → loads `guides/testing.md`
-- "Add a border to my CLI component" → loads `components/box-styling.md`
+- "Show me Box layout properties" → loads `references/box-layout.md`
+- "How do I handle keyboard input in Ink?" → loads `references/input.md`
+- "How to test Ink components?" → loads `references/testing.md`
+- "Add a border to my CLI component" → loads `references/box-styling.md`
 
 ## Repository Structure
 
@@ -40,10 +40,7 @@ ink-skill/                      (repository root)
 ├── LICENSE
 └── ink-skill/                  # Install this directory
     ├── SKILL.md                # Main entry point
-    ├── components/             # <Text>, <Box>, <Static>, etc.
-    ├── hooks/                  # useInput, useFocus, etc.
-    ├── api/                    # render(), measureElement()
-    └── guides/                 # Accessibility, testing, devtools
+    └── references/             # All documentation files
 ```
 
 ## Development
