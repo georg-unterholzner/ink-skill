@@ -2,7 +2,7 @@
 
 A comprehensive Agent Skill for building CLI applications with [Ink](https://github.com/vadimdemedes/ink) - React for CLIs.
 
-## How It Works
+## How it works
 
 This skill uses progressive disclosure to minimize token usage. Instead of loading all 2,500 lines of documentation upfront, it loads:
 
@@ -12,9 +12,19 @@ This skill uses progressive disclosure to minimize token usage. Instead of loadi
 
 ## Installation
 
+### Option 1: Install via CLI (recommended)
+
+Run the following in your terminal:
+
+```bash
+npx skills add georg-unterholzner/ink-skill
+```
+
+### Option 2: Manual installation
+
 Copy the `ink/` directory to your AI agent's skills directory. Refer to your agent's documentation for the correct installation location.
 
-You can download the skill as ZIP archive from the [releaes](https://github.com/georg-unterholzner/ink-skill/releases) page.
+You can also download the skill as ZIP archive from the [releases](https://github.com/georg-unterholzner/ink-skill/releases) page.
 
 ## Usage
 
@@ -33,7 +43,7 @@ You can also request specific sections:
 - "How to test Ink components?" → loads `references/testing.md`
 - "Add a border to my CLI component" → loads `references/box-styling.md`
 
-## Repository Structure
+## Repository structure
 
 ```
 ink/                            (repository root)
