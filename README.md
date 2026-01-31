@@ -40,7 +40,6 @@ ink-skill/                      (repository root)
 ├── LICENSE
 └── ink-skill/                  # Install this directory
     ├── SKILL.md                # Main entry point
-    ├── AGENTS.md               # Complete reference (generated)
     ├── components/             # <Text>, <Box>, <Static>, etc.
     ├── hooks/                  # useInput, useFocus, etc.
     ├── api/                    # render(), measureElement()
@@ -53,11 +52,7 @@ In order to update this repo after a new release of the docs:
 
 1. **Copy original documentation** from [Ink repository](https://github.com/vadimdemedes/ink/).
 2. **Use AI agent** to split documentation into organized subfiles and generate `SKILL.md`.
-3. **Run build script** to generate complete reference:
-   ```bash
-   ./build-agent-md.sh
-   ```
-4. **Run validation** to verify correctness and inspect deviations:
+3. **Run validation** to verify correctness and inspect deviations:
    ```bash
    ./validate-correctness.sh <path-to-original-documentation>
    ```
